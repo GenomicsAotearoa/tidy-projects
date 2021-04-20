@@ -1,0 +1,61 @@
+---
+title: "Analysis of RNAseq counts"
+author: "Murray Cadzow"
+date: "20/04/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+```
+
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+# Let’s look at our dataset and perform some basic checks before we do a differential expression analysis.
+
+
+fcData <- read.table('yeast_counts_all_chr.txt', sep='\t', header=TRUE)
+fcData %>% head()
+
+
+# Rename data columns to reflect group membership
+names(fcData)[7:12] = c("WT1", "WT2", "WT3", "MT1", "MT2", "MT3")
+
+
+
+# Extract count data
+# Remove annotation columns
+# Add row names
+counts <- fcData[, 7:12]
+rownames(counts) <- fcData$Geneid
+
+# Log transformation (add 0.5 to avoid log(0) issues):
+logCounts <- log2(as.matrix(counts) + 0.5)
+
+```
+
+
+This analysis will start to look at differential expression between the wild-type and mutant yeast strains.
+
+There are 7120 genes (rows) that will be compared in order to establish if there has been differential expression. First, we shall take a look at the counts per gene.
+
+
+
+
+
+
+```{r, echo = FALSE}
+boxplot(as.matrix(counts) ~ col(counts), main = "Counts per Gene", xlab = "Strain", ylab = "Count")
+```
+
+
+The data is highly skewed which suggests a log transform would be useful. This will be done by adding 0.5 to the counts to prevent a log2(0) issue.
+
+
+
+```{r}
+boxplot(as.matrix(logCounts) ~ col(logCounts))
+```
+
+This has improved the visualisation of the data.
