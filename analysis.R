@@ -32,5 +32,5 @@ logCounts <- log2(as.matrix(counts) + 0.5)
 
 # Now we can see the per-sample distributions more clearly:
 png(filename = "figure2_logCounts.png")
-boxplot(as.matrix(logCounts) ~ col(logCounts), main = "Log Transformed Counts")
+boxplot(as.matrix(logCounts) ~ col(logCounts), main = "Log Transformed Counts", xlab = "Strain", ylab = "log2(Count)")
 dev.off()
