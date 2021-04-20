@@ -1,6 +1,6 @@
 # Tidy projects
 
-This repository is a placeholder for a workshop/tutorial were attendees play the part of "new research group members", who receive a zip file for a former project/lab team member, and are needing to use this information to start working in their new role.
+This repository is a workshop/tutorial where attendees play the part of "new research group members", who receive a zip file for a former project/lab team member, and are needing to use this information to start working in their new role.
 
 The zip file contains:
 
