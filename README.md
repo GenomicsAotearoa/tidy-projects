@@ -21,4 +21,4 @@ Workshop participants will need to:
  - put data set on FigShare
  
     
-Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/blob/project_creation/rnaseq.tar.gz)
+Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
