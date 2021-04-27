@@ -5,25 +5,37 @@ output: html_document
 
 ```{r}
 library(here)
+dir.create(here("rnaseq"), recursive = TRUE)
+dir.create(here("data"), recursive = TRUE)
 ```
 This file will create the 'unorganised' files and save them into `rnaseq/` and then make  `rnaseq.tar.gz`. This branch (project_creation) of the repo contains some structure that the end project should look like.
 
 The dataset that will be used for the workshop is originally from the differential expression section of the GA RNAseq workshop
 
 ```{r download_data}
-download.file(url = "https://raw.githubusercontent.com/GenomicsAotearoa/RNA-seq-workshop/master/4.Differential_Expression/yeast_counts_all_chr.txt", destfile = here("rnaseq/yeast_counts_all_chr.txt"))
+download.file(url = "https://raw.githubusercontent.com/GenomicsAotearoa/RNA-seq-workshop/master/4.Differential_Expression/yeast_counts_all_chr.txt", destfile = here("data/yeast_counts_all_chr.txt"))
 ```
 
 The script contents that form part of the analysis come from that workshop too.
 
+```{r, results = FALSE}
+file.copy(here("data/yeast_counts_all_chr.txt"), here("rnaseq/yeast_counts_all_chr.txt"))
+file.copy(here("code/analysis.R"), here("rnaseq/analysis.R"))
+system("cd ../rnaseq/ ; Rscript analysis.R")
+```
+
 The `analysis_doc.Rmd` rmarkdown will create the "old" version of the word document with the older figure used. `analysis.R` creates the proper figures that should be included in the docx file.
 
-```{r do_analysis, message=FALSE, warning=FALSE, results=FALSE}
+```{r do_analysis_doc, message=FALSE, warning=FALSE, results=FALSE}
 rmarkdown::render(input = here("code/analysis_doc.Rmd"), output_format = "word_document", output_file = here("rnaseq/analysis_doc.docx"))
 ```
+
+
+
 
 Create `rnaseq.tar.gz`
 ```{r}
 system('cd ../ ; tar -czf rnaseq.tar.gz rnaseq/')
+unlink(here("rnaseq/"), recursive = TRUE)
 ```
 
