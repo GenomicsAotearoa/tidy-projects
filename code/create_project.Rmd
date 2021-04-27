@@ -1,16 +1,24 @@
 ---
 title: "Creation of the tidy-projects repo"
-output: html_document()
+output: html_document
 ---
+
+```{r}
+library(here)
+```
 
 
 The dataset that will be used for the workshop is originally from the differential expression section of the GA RNAseq workshop
 
-```{r}
-download.file(url = "https://raw.githubusercontent.com/GenomicsAotearoa/RNA-seq-workshop/master/4.Differential_Expression/yeast_counts_all_chr.txt", destfile = "yeast_counts_all_chr.txt")
+```{r download_data}
+download.file(url = "https://raw.githubusercontent.com/GenomicsAotearoa/RNA-seq-workshop/master/4.Differential_Expression/yeast_counts_all_chr.txt", destfile = here("zip/yeast_counts_all_chr.txt"))
 ```
 
 The script contents that form part of the analysis come from that workshop too.
 
 The `analysis_doc.Rmd` rmarkdown will create the "old" version of the word document with the older figure used.
+
+```{r do_analysis, include = FALSE}
+rmarkdown::render(input = here("code/analysis_doc.Rmd"), output_format = "word_document", output_file = here("zip/analysis_doc.docx"))
+```
 
