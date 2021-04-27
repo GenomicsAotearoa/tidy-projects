@@ -21,7 +21,7 @@ The count data was generated as part of the [Genomics Aotearoa RNA-seq workshop]
 # Let’s look at our dataset and perform some basic checks before we do a differential expression analysis.
 
 
-fcData <- read.table('../zip/yeast_counts_all_chr.txt', sep='\t', header=TRUE)
+fcData <- read.table('../rnaseq/yeast_counts_all_chr.txt', sep='\t', header=TRUE)
 
 
 
