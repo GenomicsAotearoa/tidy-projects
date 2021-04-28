@@ -42,11 +42,17 @@ This exercise can be done either locally or on [NeSI in the Jupyter notebooks](h
 
 ```bash
 # This code block relates to if you are doing this on NeSI
+
+# change into the workshop directory
 cd /nesi/nobackup/nesi02659/tidy-projects
+
+# create then move into a directory for your username
 mkdir $(whoami)
 cd $(whomai)
 ```
 
+
+Download and extract the data
 ```bash
 # download the file on the commandline
 wget https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz
