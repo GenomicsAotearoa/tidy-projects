@@ -38,10 +38,11 @@ Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-proje
 
 This exercise can be done either locally or on NeSI in the Jupyter notebooks bash terminal if you wish.
 
-```.bash
+```bash
 # download the file on the commandline
 wget https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz
 
-#extract the tar archive
+# extract the tar archive
 tar -xzf rnaseq.tar.gz
+cd rnaseq/
 ```
