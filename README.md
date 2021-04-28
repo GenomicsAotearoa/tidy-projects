@@ -8,7 +8,7 @@ This repository is a workshop/tutorial where attendees play the part of "new res
 The exercise in this workshop is designed as a practical implementation of the presentation from the [Genomic Aotearoa Good Practice Workshop](https://github.com/GenomicsAotearoa/ga-good-practice).
 
 
-The zip file contains:
+The compressed tar file contains:
 
 - data
 - script(s) (maybe a .R file)
