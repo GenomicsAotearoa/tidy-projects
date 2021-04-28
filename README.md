@@ -33,7 +33,9 @@ Your task is to:
 5. Think about how you could make this analysis and data shareable
    - what are some considerations for the code, analysis, and data?
 6. (optional) Apply the concepts of tidy projects to one of your existing projects    
-Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
+
+
+**Data download link:** [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
 
 
 This exercise can be done either locally or on [NeSI in the Jupyter notebooks](https://jupyter.nesi.org.nz/hub/login?next=/hub/) bash terminal if you wish.
