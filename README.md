@@ -11,7 +11,7 @@ The exercise in this workshop is designed as a practical implementation of the p
 The compressed tar file contains:
 
 - data
-- script(s) (maybe a .R file)
+- script(s) (python: *.py, R: *.R, bash: *.sh )
 - results derived from using the script
 - a Word document containing some kind of report/commentary 
 - some notes relating to the data that have been used
@@ -27,7 +27,8 @@ Your task is to:
 4. Improve the repository
    - (optional) implement version control on the directory and track the changes you make
    - add documentation
-   - include metadata
+      - (optional) convert analysis/documentation into a markdown (or Rmarkdown) document
+      - include metadata
    - update the analysis
 5. Think about how you could make this analysis and data shareable
    - what are some considerations for the code, analysis, and data?
