@@ -11,7 +11,7 @@ The exercise in this workshop is designed as a practical implementation of the p
 The compressed tar file contains:
 
 - data
-- script(s) (python: *.py, R: *.R, bash: *.sh )
+- script(s) (python: *.py, R: *.R, bash: *.sh, slurm: *.sl )
 - results derived from using the script
 - a Word document containing some kind of report/commentary 
 - some notes relating to the data that have been used
