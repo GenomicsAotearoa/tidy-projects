@@ -1,6 +1,12 @@
+Time allotted: 1 hour
+
 # Tidy projects
 
+
 This repository is a workshop/tutorial where attendees play the part of "new research group members", who receive a zip file for a former project/lab team member, and are needing to use this information to start working in their new role.
+
+The exercise in this workshop is designed as a practical implementation of the presentation from the [Genomic Aotearoa Good Practice Workshop](https://github.com/GenomicsAotearoa/ga-good-practice).
+
 
 The zip file contains:
 
@@ -12,18 +18,19 @@ The zip file contains:
 
 Your task is to:
 
- - download [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
- - investigate the contents of the files
-    - do the files match the contents of the analysis?
-    - what are some of the problems you came across?
-- organise the contents into a "tidy" project structure
-    - separate code, data, results
-- improve the repository
-    - add documentation
-    - include metadata
-    - update the analysis
-- think about how you could make this analysis and data shareable
- 
+1. Download [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
+2. Investigate the contents of the files
+   - do the files match the contents of the analysis?
+   - what are some of the problems you came across?
+3. Organise the contents into a "tidy" project structure
+   - separate code, data, results
+4. Improve the repository
+   - (optional) implement version control on the directory and track the changes you make
+   - add documentation
+   - include metadata
+   - update the analysis
+5. Think about how you could make this analysis and data shareable
+   - what are some considerations for the code, analysis, and data?
     
 Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
 
