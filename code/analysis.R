@@ -1,15 +1,14 @@
 # Let’s look at our dataset and perform some basic checks before we do a differential expression analysis.
-library(dplyr)
 
 fcData <- read.table('yeast_counts_all_chr.txt', sep='\t', header=TRUE)
-fcData %>% head()
+head(fcData)
 
 # check dimentions
 dim(fcData)
 
 # Rename data columns to reflect group membership
 names(fcData)[7:12] = c("WT1", "WT2", "WT3", "MT1", "MT2", "MT3")
-fcData %>% head()
+head(fcData)
 
 
 # Extract count data
@@ -17,7 +16,7 @@ fcData %>% head()
 # Add row names
 counts <- fcData[, 7:12]
 rownames(counts) <- fcData$Geneid
-counts %>% head()
+head(fcData)
 
 # create a plot of counts per gene by sample
 png(file = "figure1_counts.png")
