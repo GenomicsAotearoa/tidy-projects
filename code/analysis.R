@@ -19,7 +19,7 @@ rownames(counts) <- fcData$Geneid
 head(fcData)
 
 # create a plot of counts per gene by sample
-png(file = "figure1_counts.png")
+png(filename = "figure1_counts.png")
 boxplot(as.matrix(counts) ~ col(counts), main = "Counts per Gene", xlab = "Strain", ylab = "Count")
 dev.off()
 

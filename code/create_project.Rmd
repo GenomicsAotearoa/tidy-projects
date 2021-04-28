@@ -20,6 +20,10 @@ The script contents that form part of the analysis come from that workshop too.
 
 ```{r, results = FALSE}
 file.copy(here("data/yeast_counts_all_chr.txt"), here("rnaseq/yeast_counts_all_chr.txt"))
+
+file.copy(here("code/load_modules.sh"), here("rnaseq/load_modules.sh"))
+
+
 file.copy(here("code/analysis.R"), here("rnaseq/analysis.R"))
 system("cd ../rnaseq/ ; Rscript analysis.R")
 ```
