@@ -22,6 +22,9 @@ Your task is to:
 2. Investigate the contents of the files
    - do the files match the contents of the analysis?
    - what are some of the problems you came across?
+
+_Pause for discussion_
+
 3. Organise the contents into a "tidy" project structure
    - separate code, data, results
 4. Improve the repository
@@ -32,6 +35,9 @@ Your task is to:
    - update the analysis
 5. Think about how you could make this analysis and data shareable
    - what are some considerations for the code, analysis, and data?
+
+_Pause for discussion_
+
 6. (optional) Apply the concepts of tidy projects to one of your existing projects    
 
 
