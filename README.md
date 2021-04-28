@@ -36,7 +36,7 @@ Your task is to:
 Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
 
 
-This exercise can be done either locally or on NeSI in the Jupyter notebooks bash terminal if you wish.
+This exercise can be done either locally or on [NeSI in the Jupyter notebooks](https://jupyter.nesi.org.nz/hub/login?next=/hub/) bash terminal if you wish.
 
 ```bash
 # download the file on the commandline
