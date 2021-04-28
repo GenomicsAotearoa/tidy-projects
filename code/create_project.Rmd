@@ -19,12 +19,19 @@ download.file(url = "https://raw.githubusercontent.com/GenomicsAotearoa/RNA-seq-
 The script contents that form part of the analysis come from that workshop too.
 
 ```{r, results = FALSE}
+# copy data
 file.copy(here("data/yeast_counts_all_chr.txt"), here("rnaseq/yeast_counts_all_chr.txt"))
 
-file.copy(here("code/load_modules.sh"), here("rnaseq/load_modules.sh"))
+#copy shell scripts
+file.copy(here("code/load_modules.sh"), here("rnaseq/"))
 
+#copy slurm scripts
+file.copy(here("code/run_analysis.sl"), here("rnaseq/"), )
 
-file.copy(here("code/analysis.R"), here("rnaseq/analysis.R"))
+# copy R scripts
+file.copy(here("code/analysis.R"), here("rnaseq/"))
+
+# run R script to generate results
 system("cd ../rnaseq/ ; Rscript analysis.R")
 ```
 
