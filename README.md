@@ -41,6 +41,13 @@ Your task is to:
 This exercise can be done either locally or on [NeSI in the Jupyter notebooks](https://jupyter.nesi.org.nz/hub/login?next=/hub/) bash terminal if you wish.
 
 ```bash
+# This code block relates to if you are doing this on NeSI
+cd /nesi/nobackup/nesi02659/tidy-projects
+mkdir $(whoami)
+cd $(whomai)
+```
+
+```bash
 # download the file on the commandline
 wget https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz
 
