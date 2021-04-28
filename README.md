@@ -32,7 +32,7 @@ Your task is to:
    - update the analysis
 5. Think about how you could make this analysis and data shareable
    - what are some considerations for the code, analysis, and data?
-    
+6. (optional) Apply the concepts of tidy projects to one of your existing projects    
 Data download link: [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
 
 
