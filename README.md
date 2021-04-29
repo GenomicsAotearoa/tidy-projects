@@ -33,7 +33,7 @@ cd /nesi/nobackup/nesi02659/tidy-projects
 
 # create then move into a directory for your username
 mkdir $(whoami)
-cd $(whomai)
+cd $(whoami)
 ```
 
 
