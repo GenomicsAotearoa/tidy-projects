@@ -20,7 +20,7 @@ This workshop can be done either locally or on [NeSI in the Jupyter notebooks](h
 
 Your task is to:
 
-## 1. Download [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
+## 1. Download [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz) (5 min exercise)
 
 
 **Data download link:** [`rnaseq.tar.gz`](https://github.com/murraycadzow/tidy-projects/raw/project_creation/rnaseq.tar.gz)
@@ -47,7 +47,7 @@ tar -xzf rnaseq.tar.gz
 cd rnaseq/
 ```
 
-## 2. Investigate the contents of the files
+## 2. Investigate the contents of the files (10 min exercise, 5 min discussion)
    
 - Do the files match the contents of the analysis?
 - What are some of the problems you came across?
@@ -55,7 +55,7 @@ cd rnaseq/
 _Pause for discussion_
 
 
-## 3. Improve the repository
+## 3. Improve the repository (15 min exercise, 5 min discussion)
    
 - (optional) implement version control on the directory and track the changes you make
 - separate code, data, results
@@ -65,7 +65,7 @@ _Pause for discussion_
 - update the analysis
 - anything else?
 
-## 4. Think about how you could make this analysis and data shareable
+## 4. Think about how you could make this analysis and data shareable (10-15 min discussion)
    
 - what are some considerations for the code, analysis, and data?
 
