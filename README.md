@@ -54,25 +54,24 @@ cd rnaseq/
 
 _Pause for discussion_
 
-## 3. Organise the contents into a "tidy" project structure
 
-- Separate code, data, results
-
-## 4. Improve the repository
+## 3. Improve the repository
    
 - (optional) implement version control on the directory and track the changes you make
+- separate code, data, results
 - add documentation
 - (optional) convert analysis/documentation into a markdown (or Rmarkdown) document
    - include metadata
 - update the analysis
+- anything else?
 
-## 5. Think about how you could make this analysis and data shareable
+## 4. Think about how you could make this analysis and data shareable
    
 - what are some considerations for the code, analysis, and data?
 
 _Pause for discussion_
 
-## 6. (optional) Apply the concepts of tidy projects to one of your existing projects    
+## 5. (optional) Apply the concepts of tidy projects to one of your existing projects    
 
 Have a go at tidying up one of your existing projects.
 
