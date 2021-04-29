@@ -4,7 +4,7 @@ This file covers many of the discussion points from the workshop:
 
 Explain how to get the data and what the archive contains and the background of the project. Originally based on the RNAseq workshop.
 
-## 2. Investigate the contents of the files (15 min)
+## 2. Investigate the contents of the files (10 min exercise, 5 min discussion)
 
 - Do the files match the contents of the analysis?
 - What are some of the problems you came across?
@@ -27,7 +27,7 @@ Discussion points:
 - analysis document is in a proprietary format
 - no version control
 
-## 3. Improve the repository (15 min
+## 3. Improve the repository (15 min, 5 min discussion)
 
 - Separate code, data, results
 - (optional) implement version control on the directory and track the changes you make
@@ -43,7 +43,7 @@ Ideally a structure that makes sense and follows what is suggested in the [ga-go
 
 Probe for what they included and how they found extra information for metadata - links from the citation in the analysis lead to the paper which leads to NCBI repo. Googling the samples in the data file plus NCBI can lead to the original fastq files. Can also look for more information in the RNAseq workshop.
 
-# 4. Think about how you could make this analysis and data shareable (15 min)
+# 4. Think about how you could make this analysis and data shareable (10-15 min discussion)
 
 - what are some considerations for the code, analysis, and data?
 
