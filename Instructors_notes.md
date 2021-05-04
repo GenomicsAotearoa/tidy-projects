@@ -67,10 +67,10 @@ Data:
 Three main principles ownership, where can the data be stored, and size.
 
 - Who owns/controls the data - make sure that indigenous communities are involved up front!
-- what geographical restrictions are there for where the data is physically stored?
+- What geographical restrictions are there for where the data is physically stored?
   - does it need to remain in country?
     - NeSI/GA data repository is a good default
     - cloud based storage: dropbox, aws, onedrive, azure, catalyst, etc.- > **where will the data be physically hosted?**
-- size of data will determine what methods of data sharing will be appropriate
+- Size of data will determine what methods of data sharing will be appropriate
   - github might be appropriate for small scale e.g. < 100 MB
-- consult with institution librarians (if available)
+- Consult with institution librarians (if available)
